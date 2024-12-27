@@ -26,9 +26,7 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+        <img src="https://i.imgur.com/ZbRcvYy.png" alt="Logo" width="100" height="100"></img>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
