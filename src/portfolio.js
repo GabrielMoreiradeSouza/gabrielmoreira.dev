@@ -137,9 +137,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Fractal",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      logo: require("./assets/images/Fractal.png"),
+      subHeader: "High school",
+      duration: "January 2017 - December 2020",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -148,9 +148,9 @@ const educationInfo = {
     },
     {
       schoolName: "PUC-GO",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/PUC.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "August 2022 - Current",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -264,7 +264,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "JAVA Developer",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -285,7 +285,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Front End Developer",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
@@ -299,9 +299,9 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Spigot Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/SpigotMC.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -384,8 +384,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+55 (62) 98150-0233",
+  email_address: "gmoreiradesouza19@yahoo.com.br"
 };
 
 // Twitter Section
