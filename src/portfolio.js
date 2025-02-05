@@ -140,19 +140,14 @@ const educationInfo = {
       logo: require("./assets/images/Fractal.png"),
       subHeader: "High school",
       duration: "January 2017 - December 2020",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Fractal is a distinguished private school, recognized for its high approval rates in entrance exams and an exceptional teaching staff. We offer quality education, focusing on the integral development of students, preparing them for academic and professional challenges.",
     },
     {
       schoolName: "PUC-GO",
       logo: require("./assets/images/PUC.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2022 - Current",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "PUC-GO is a higher education institution recognized as a reference in Computer Science, both in the state and throughout Brazil. With an updated curriculum and highly qualified professors, the university provides a solid and innovative education, preparing students for the challenges of the job market and the constant evolution of technology.",
     }
   ]
 };
@@ -163,16 +158,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Proactive", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Communicative",
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Empathy",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -186,7 +181,7 @@ const workExperiences = {
     {
       role: "Junior Systems Analyst",
       company: "Job investimentos",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/JOB.jpeg"),
       date: "November 2023 – November 2024",
       desc: "Experienced in Sênior ERP and Active Directory, managing user access, optimizing processes, and providing strategic support through tailored reports and communication enhancements.",
       descBullets: [
@@ -199,9 +194,14 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Futurium LTDA",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/Futurium.png"),
+      date: "Feb 2023 – Current",
+      desc: "I work as a freelancer in the development and configuration of plugins in Java, focusing on solutions for game servers and websites. My skills include the use of technologies such as Docker for containerization, MySQL for data management, Redis for caching and data storage, and WordPress for website creation and configuration. I also perform server network analysis and use SSH for secure server management and maintenance.",
+      descBullets: [
+        "Development of plugins in Java",
+        "Keeping Linux applications running and up to date",
+        "Deployment of systems"
+      ]
     },
     {
       role: "Attendant",
