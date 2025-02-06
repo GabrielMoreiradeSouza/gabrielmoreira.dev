@@ -328,7 +328,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With a love for developing cool stuff, I enjoy always staying updated on the latest technologies and their changes.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -359,8 +359,8 @@ const talkSection = {
     {
       title: "Class conducted on Azure databases.",
       subtitle: "Class conducted in November 2024.",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "https://drive.google.com/file/d/1zaekHc9-IHOHfQjaDi_bqZKwdO0gtHo9/view?usp=drive_link",
+      event_url: "https://www.pucgoias.edu.br/cursos/graduacao/ciencia-da-computacao/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
