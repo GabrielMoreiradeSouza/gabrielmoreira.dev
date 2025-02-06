@@ -207,8 +207,8 @@ const workExperiences = {
       role: "Attendant",
       company: "Açaí ao toque",
       companylogo: require("./assets/images/Acai.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2020 – Nov 2020",
+      desc: "Experience in customer service in a snack bar environment, where I developed essential skills in communication and interpersonal relationships. Responsible for welcoming and serving customers, taking orders, and ensuring their satisfaction. I enhanced my ability to interact with diverse personalities, providing quick and friendly service. This experience was crucial in strengthening my capability to work under pressure and as part of a team, always focusing on delivering excellent service."
     }
   ]
 };
@@ -228,25 +228,33 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ChatGPT.jpg"),
+      projectName: "Chat GPT Style",
+      projectDesc: "For now we only have a few themes, we count on the help of the community to facilitate the maintenance of the code and make our theme gallery more and more crowded.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Source Code",
+          url: "https://github.com/GabrielMoreiradeSouza/chatgpt-style"
+        },
+        {
+          name: "Site",
+          url: "https://chromewebstore.google.com/detail/chatgpt-style/ooefjbdchgdlfeigfhigjpffppdklnef?pli=1"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Sonic.jpg"),
+      projectName: "Sonic Jump",
+      projectDesc: "Basic game created using HTML, CSS, and JavaScript.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Source Code",
+          url: "https://github.com/GabrielMoreiradeSouza/Sonic-Jump.git"
+        },
+        {
+          name: "Site",
+          url: "https://gabrielmoreiradesouza.github.io/Sonic-Jump/"
         }
       ]
     }
@@ -266,48 +274,48 @@ const achievementSection = {
     {
       title: "JAVA Developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Comprehensive and instructional course on Java and Object-Oriented Programming (OOP), covering UML, JDBC, JavaFX, Spring Boot, JPA, Hibernate, MySQL, and MongoDB. Ideal for those seeking a solid foundation in software development, combining theory and practice.",
       image: require("./assets/images/JAVA.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: ""
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Final Project",
+          url: ""
         }
       ]
     },
     {
       title: "Front End Developer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Origamid offers specialized courses for those looking to deepen their knowledge in Web Development and Interface Design. With a practical focus and updated content, the courses are structured to cater to everyone from beginners to professionals seeking to specialize in Front End and UX/UI Design.",
       image: require("./assets/images/Origamid.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: ""
+        },
+        {
+          name: "Final Project",
+          url: ""
         }
       ]
     },
 
     {
       title: "Spigot Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Course focused on creating plugins for Minecraft using Java. Covers events, commands, custom configuration, data storage in MySQL, coding best practices, and using GitHub for version control. It also reinforces Object-Oriented Programming concepts and features of Java 8.",
       image: require("./assets/images/SpigotMC.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://drive.google.com/file/d/1xEYKQLtEImeEc-gZjLlGPAHQ60HN2dRJ/view?usp=drive_link"},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://github.com/GabrielMoreiradeSouza/LandShield"
         }
       ]
     }
