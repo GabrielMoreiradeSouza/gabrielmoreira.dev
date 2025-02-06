@@ -9,7 +9,6 @@ import StyleContext from "../../contexts/StyleContext";
 
 // Importando imagens
 import img1 from "../../assets/images/Foto1.jpg";
-import img2 from "../../assets/images/Foto2.jpg";
 import img3 from "../../assets/images/Foto3.jpg";
 import img4 from "../../assets/images/Foto4.jpg";
 import img5 from "../../assets/images/Foto5.jpg";
@@ -20,7 +19,7 @@ export default function Greeting() {
   const [currentImage, setCurrentImage] = useState(0);
 
   // Lista de imagens
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img3, img4, img5, img6];
 
   // Função para mudar a imagem ao clicar
   const handleNextImage = () => {
