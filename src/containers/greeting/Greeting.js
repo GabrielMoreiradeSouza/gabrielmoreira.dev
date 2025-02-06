@@ -1,19 +1,36 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, { useState, useContext } from "react";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
+// Importando imagens
+import img1 from "../../assets/images/Foto1.jpg";
+import img2 from "../../assets/images/Foto2.jpg";
+import img3 from "../../assets/images/Foto3.jpg";
+import img4 from "../../assets/images/Foto4.jpg";
+import img5 from "../../assets/images/Foto5.jpg";
+import img6 from "../../assets/images/Foto6.jpg";
+
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
+  const [currentImage, setCurrentImage] = useState(0);
+
+  // Lista de imagens
+  const images = [img1, img2, img3, img4, img5, img6];
+
+  // Função para mudar a imagem ao clicar
+  const handleNextImage = () => {
+    setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+  };
+
   if (!greeting.displayGreeting) {
     return null;
   }
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -23,7 +40,6 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
@@ -52,15 +68,45 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
+
+          {/* Área do carrossel estilo "book pages" */}
+          <div
+            className="greeting-image-div"
+            style={{
+              position: "relative",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "0 auto",
+              width: "350px",
+              height: "450px",
+              perspective: "1000px",
+              marginTop: "85px"
+            }}
+          >
+            {images.map((image, index) => (
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+                key={index}
+                src={image}
+                alt={`Foto ${index + 1}`}
+                onClick={handleNextImage}
+                style={{
+                  position: "absolute",
+                  width: "500px",
+                  height: "100%",
+                  objectFit: "cover",
+                  borderRadius: "12px",
+                  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
+                  cursor: "pointer",
+                  transition: "transform 0.5s ease, opacity 0.5s ease",
+                  transform: `translateX(${
+                    index === currentImage ? "0" : "10px"
+                  }) rotateY(${index === currentImage ? "0deg" : "15deg"})`,
+                  opacity: index === currentImage ? 1 : 0,
+                  zIndex: index === currentImage ? 1 : 0,
+                }}
+              />
+            ))}
           </div>
         </div>
       </div>
