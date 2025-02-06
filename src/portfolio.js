@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/GabrielMoreiradeSouza",
   linkedin: "https://www.linkedin.com/in/gabriel-moreira-de-souza-bb4289240/",
-  gmail: "gmoreiradesouza19@yahoo.com",
+  gmail: "gmoreiradesouza19@gmail.com",
   gitlab: "https://gitlab.com/GabrielMoreiraS",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Attendant",
       company: "Açaí ao toque",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/Acai.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -267,7 +267,7 @@ const achievementSection = {
       title: "JAVA Developer",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/JAVA.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -288,7 +288,7 @@ const achievementSection = {
       title: "Front End Developer",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/Origamid.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -324,16 +324,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://openai.com/news/",
+      title: "The Future of AI: Innovations and Challenges",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Discover how AI is revolutionizing industries, enhancing human potential, and shaping the future of technology."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://dev.to/",
+      title: "Empowering Developers: Tips, Tools, and Trends",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Stay ahead in the dev world with the latest insights, best practices, and cutting-edge tools for modern software development."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -349,8 +349,8 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      title: "Class conducted on Azure databases.",
+      subtitle: "Class conducted in November 2024.",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
@@ -362,11 +362,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Podcasts that I found interesting:",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://open.spotify.com/embed/episode/7fM9SiNmZJgMNkfNuLYClk"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -385,7 +385,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+55 (62) 98150-0233",
-  email_address: "gmoreiradesouza19@yahoo.com.br"
+  email_address: "gmoreiradesouza19@gmail.com"
 };
 
 // Twitter Section
