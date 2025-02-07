@@ -56,7 +56,7 @@ const skillsSection = {
       "⚡ Implementation and management of Dockerized environments and CI/CD pipelines using Jenkins"
     ),
     emoji(
-      "⚡ Integration of third-party services like Redis, Firebase, AWS, and WordPress"
+      "⚡ Integration of third-party services like Redis and WordPress"
     ),
     emoji(
       "⚡ Design and optimization of user interfaces and experiences (UI/UX) using Figma and modern web technologies"
@@ -159,15 +159,15 @@ const techStack = {
   experience: [
     {
       Stack: "Proactive", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Communicative",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Empathy",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
