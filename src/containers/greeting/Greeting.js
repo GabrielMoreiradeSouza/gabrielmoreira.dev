@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
@@ -21,10 +21,19 @@ export default function Greeting() {
   // Lista de imagens
   const images = [img1, img3, img4, img5, img6];
 
-  // Função para mudar a imagem ao clicar
+  // Função para avançar imagem
   const handleNextImage = () => {
     setCurrentImage((prevImage) => (prevImage + 1) % images.length);
   };
+
+  // Efeito para trocar automaticamente a imagem a cada 3 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNextImage();
+    }, 5000);
+
+    return () => clearInterval(interval); // Cleanup ao desmontar o componente
+  }, []);
 
   if (!greeting.displayGreeting) {
     return null;
@@ -80,7 +89,7 @@ export default function Greeting() {
               width: "350px",
               height: "450px",
               perspective: "1000px",
-              marginTop: "85px"
+              marginTop: "85px",
             }}
           >
             {images.map((image, index) => (
